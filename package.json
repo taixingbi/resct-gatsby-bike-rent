@@ -1,0 +1,74 @@
+{
+  "name": "bike-rent-nyc-2019",
+  "private": true,
+  "description": "New website by BikeRentNYC 2019",
+  "version": "0.0.1",
+  "author": "Mar Tabilla - BikeRentNYC",
+  "dependencies": {
+    "@brainhubeu/react-carousel": "^1.10.17",
+    "@material-ui/core": "^3.9.3",
+    "axios": "^0.18.0",
+    "babel-plugin-styled-components": "^1.10.0",
+    "gatsby": "^2.3.5",
+    "gatsby-image": "^2.0.37",
+    "gatsby-plugin-google-analytics": "^2.0.20",
+    "gatsby-plugin-layout": "^1.0.15",
+    "gatsby-plugin-manifest": "^2.0.26",
+    "gatsby-plugin-material-ui": "^2.0.0-alpha.6",
+    "gatsby-plugin-offline": "^2.0.25",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-robots-txt": "^1.4.0",
+    "gatsby-plugin-sharp": "^2.0.32",
+    "gatsby-plugin-sitemap": "^2.1.0",
+    "gatsby-plugin-styled-components": "^3.0.7",
+    "gatsby-remark-responsive-iframe": "^2.1.1",
+    "gatsby-source-apiserver": "^2.1.1",
+    "gatsby-source-filesystem": "^2.0.28",
+    "gatsby-transformer-remark": "^2.3.12",
+    "gatsby-transformer-sharp": "^2.1.17",
+    "lodash": "^4.17.11",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-datepicker": "^2.7.0",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
+    "react-icons": "^3.6.1",
+    "react-md-spinner": "^0.3.0",
+    "react-pose": "^4.0.8",
+    "react-toastify": "^5.1.0",
+    "scrollreveal": "^4.0.5",
+    "styled-components": "^4.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "^24.7.1",
+    "babel-preset-gatsby": "^0.1.11",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.4.1",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.7.1",
+    "react-test-renderer": "^16.8.6"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "jest --coverage",
+    "test:watch": "jest --coverage --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

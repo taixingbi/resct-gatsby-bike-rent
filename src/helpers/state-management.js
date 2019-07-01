@@ -1,0 +1,32 @@
+
+export const resetState = (actions) => {
+  actions.setSideBarState(false);
+  actions.setHours(0);
+  actions.setAdultQnty(0);
+  actions.setChildQnty(0);
+  actions.setTandemQnty(0);
+  actions.setEbikeQnty(0);
+  actions.setRoadQnty(0);
+  actions.setMountainQnty(0);
+  actions.setElliptigoQnty(0);
+  actions.setTricycleQnty(0);
+  actions.setSnowQnty(0);
+  actions.setEHandQnty(0);
+  actions.setEHandQnty(0);
+  actions.setChildSeatQnty(0);
+  actions.setChildTrailerQnty(0);
+  actions.setTagalongQnty(0);
+  actions.setBasketQnty(0);
+  actions.setGuidedTours(null);
+  actions.setTimeSelected(null);
+  actions.setCheckoutSubTotal(0);
+  actions.setFirstName('');
+  actions.setLastName('');
+  actions.setEmail('');
+  actions.setPhoneNumber('');
+  actions.setCreditCardName('');
+  actions.setCreditCardNumber('');
+  actions.setCreditCardCvc('');
+  actions.setCreditCardExpDate('');
+  actions.setIsLoading(false);
+};
